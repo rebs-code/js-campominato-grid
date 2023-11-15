@@ -17,6 +17,10 @@ playButton.addEventListener("click", function () {
     
     for (let i = 1; i <= 100; i++) {
         const myElement = createElement("div", "cell", i);
+        myElement.addEventListener("click", function() {
+            console.log(`Cell ${i} clicked!`);
+            myElement.classList.toggle("blue");
+        });
         document.getElementById('board').append(myElement);
     }
 });
