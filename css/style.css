@@ -61,9 +61,27 @@ main {
     margin: 1rem;
 }
 
-.cell {
+.cell-10 {
     width: calc(100% / 10);
     height: calc(100% / 10);
+    border: 0.125rem solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-9 {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    border: 0.125rem solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-7 {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
     border: 0.125rem solid #000;
     display: flex;
     justify-content: center;
