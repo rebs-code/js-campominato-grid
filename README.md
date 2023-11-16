@@ -46,3 +46,6 @@ for (let i = 1; i <= 100; i++) {
 
 Ad ogni celle creata ci sarò un event listener che al click aggiungerà la classe blue.
 
+
+Quando si crea il board bisogna già avere tutti gli elementi, la tavola di gioco deve già avere tutte le informazioni. Le operazioni che facciamo devono avere un ordine logico che il board è l'ultima cosa che creiamo prima di iniziare il gioco.
+
